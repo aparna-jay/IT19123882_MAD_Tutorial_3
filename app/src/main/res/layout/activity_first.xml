@@ -21,8 +21,8 @@
 
     <TextView
         android:id="@+id/Num2"
-        android:layout_width="93dp"
-        android:layout_height="39dp"
+        android:layout_width="78dp"
+        android:layout_height="33dp"
         android:layout_marginStart="32dp"
         android:layout_marginLeft="32dp"
         android:layout_marginTop="32dp"
@@ -45,17 +45,21 @@
         android:id="@+id/Number1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/Num1"
-        tools:layout_editor_absoluteX="161dp" />
+        app:layout_constraintStart_toEndOf="@+id/Num1" />
 
     <EditText
         android:id="@+id/Number2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
         android:ems="10"
         android:inputType="number"
         app:layout_constraintBaseline_toBaselineOf="@+id/Num2"
-        tools:layout_editor_absoluteX="161dp" />
+        app:layout_constraintStart_toEndOf="@+id/Num2" />
 </androidx.constraintlayout.widget.ConstraintLayout>
